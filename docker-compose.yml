@@ -18,16 +18,16 @@ services:
       - DB_PATH=/data/life_data.db
       - TRANSPORT=http
       - HOST=0.0.0.0
-      - PORT=8000
+      - PORT=8500
       - MCP_TOKEN=${MCP_TOKEN}
     ports:
-      - "8000:8000"
+      - "8500:8500"
     restart: unless-stopped
 
   frontend:
     build: ./frontend
     ports:
-      - "80:80"
+      - "4000:80"
     depends_on:
       - api
     restart: unless-stopped
