@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "life-tracker": {
+      "command": "/Users/ayachinene/WorkSpace/mcp/.venv/bin/python3",
+      "args": ["/Users/ayachinene/WorkSpace/mcp/main.py"]
+    }
+  }
+}

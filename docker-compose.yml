@@ -1,0 +1,36 @@
+services:
+  api:
+    build: .
+    command: python api.py
+    volumes:
+      - db_data:/data
+    environment:
+      - DB_PATH=/data/life_data.db
+      - API_PORT=8001
+    restart: unless-stopped
+
+  mcp:
+    build: .
+    command: python main.py
+    volumes:
+      - db_data:/data
+    environment:
+      - DB_PATH=/data/life_data.db
+      - TRANSPORT=http
+      - HOST=0.0.0.0
+      - PORT=8000
+      - MCP_TOKEN=${MCP_TOKEN}
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  db_data:
