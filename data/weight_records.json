@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "unit": "kg",
+  "records": [
+    {
+      "date": "2026-04-24",
+      "weight_kg": 76.45,
+      "notes": "Initial body parameter record"
+    }
+  ]
+}

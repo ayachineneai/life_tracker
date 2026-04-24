@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "person": {
+    "sex": "male",
+    "birth_date": "1999-11-13"
+  },
+  "body": {
+    "height_cm": 168,
+    "current_weight_kg": 76.45,
+    "basal_metabolic_rate_kcal_per_day": 1635
+  },
+  "recorded_at": "2026-04-24"
+}

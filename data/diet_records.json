@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "date": "2026-04-24",
+      "meals": [
+        {
+          "type": "breakfast",
+          "items": [
+            {
+              "name": "香菇青菜包",
+              "quantity": "1个"
+            },
+            {
+              "name": "茶叶蛋",
+              "quantity": "1个"
+            }
+          ],
+          "calories_kcal": 300,
+          "notes": ""
+        },
+        {
+          "type": "lunch",
+          "items": [
+            {
+              "name": "米饭",
+              "quantity": "1份"
+            },
+            {
+              "name": "牛肉",
+              "quantity": "1份"
+            },
+            {
+              "name": "西兰花",
+              "quantity": "1份"
+            },
+            {
+              "name": "鸡蛋",
+              "quantity": "半个"
+            }
+          ],
+          "calories_kcal": 600,
+          "image_path": "/Users/ayachinene/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pfqfwjdlmyz322_0f70/temp/RWTemp/2026-04/9e20f478899dc29eb19741386f9343c8/cc3de4c6506b5d14a82bdf482f8fa48b.jpg",
+          "notes": "Calories estimated by user."
+        },
+        {
+          "type": "snack",
+          "items": [
+            {
+              "name": "酸奶",
+              "quantity": "1罐"
+            }
+          ],
+          "calories_kcal": 130,
+          "notes": "Approximate calories."
+        }
+      ],
+      "total_known_calories_kcal": 1030,
+      "notes": ""
+    }
+  ]
+}
